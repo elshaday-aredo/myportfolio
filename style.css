@@ -1,21 +1,25 @@
 /* TEXT */
-h1 {
+h1{
   font-family:Arial, sans-serif ;
   font-size: 60px;
 }
 
-h2 {
-  font-size: 40px
+h2{
+  font-size: 40px;
 }
 
-h3 {
-  font-size: 30px
+h3{
+  font-size: 30px;
 }
 
-h4 {
-  font-family:Arial, sans-serif ;
+h4{
   font-size: 20px;
   padding-top: 30px;
+}
+
+p{
+  font-size: 15px ;
+  margin: 0 30%;
 }
 
 p, h2, h3, h4, ul {
@@ -23,10 +27,6 @@ p, h2, h3, h4, ul {
   color: white;
 }
 
-p{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px ;
-  margin: 0 30%;
 }
 .black-font{
   color: black;
@@ -37,7 +37,7 @@ p{
 }
 
 .small-font{
-  font-size: 10px
+  font-size: 10px;
 }
 
 header, Section, Footer {
@@ -47,12 +47,12 @@ header, Section, Footer {
 ul {
   text-align: left;
   margin: 0 30%;
-  padding-top: 20px
+  padding-top: 20px;
 }
 
 .text-left{
   text-align: left;
-  margin: 0 30%
+  margin: 0 30%;
 }
 
 a {
@@ -74,7 +74,7 @@ header{
 .short-hr{
   margin: 0% 30%;
   margin-top: 20px;
-  border: solid #fff 2px
+  border: solid #fff 2px;
 }
 
 footer > p {
