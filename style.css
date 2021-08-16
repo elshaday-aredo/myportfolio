@@ -4,7 +4,14 @@ h1 {
   font-size: 50px;
 }
 
-p, h2, h3, ul {
+h4 {
+  font-family:Arial, sans-serif ;
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+p, h2, h3, h4, ul {
+  font-family:Arial, sans-serif ;
   color: white;
 }
 
@@ -31,12 +38,13 @@ header, Section, Footer {
 
 ul {
   text-align: left;
-  margin: center ;
+  margin: 0 30%;
+  padding-top: 20px
 }
 
 .text-left{
   text-align: left;
-  margin: center ;
+  margin: 0 30%
 }
 
 a {
