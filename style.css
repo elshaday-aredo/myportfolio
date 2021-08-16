@@ -22,7 +22,7 @@ p{
   margin: 0 30%;
 }
 
-p, h3, h4, ul {
+p, h3, h4, ul, ol {
   font-family:Arial, sans-serif ;
   color: white;
 }
@@ -44,7 +44,7 @@ header, Section, Footer {
   text-align: center;
 }
 
-ul {
+ol {
   text-align: left;
   margin: 0 30%;
   padding-top: 20px;
