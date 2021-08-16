@@ -1,4 +1,4 @@
-/* TEXT */
+/* TEXT (h1-h4, p) */
 h1{
   font-family:Arial, sans-serif ;
   font-size: 60px;
@@ -27,7 +27,49 @@ p, h3, h4, ul, ol {
   color: white;
 }
 
+/* CONTAINERS */
+
+header, Section, Footer {
+  text-align: center;
 }
+
+body{
+  background-color:black; 
+}
+
+header{
+  background-color: #fff;
+  height: 155px;
+}
+
+footer > p {
+margin: 10px;
+}
+
+
+/* LISTS */
+ol {
+  text-align: left;
+  margin: 0 30%;
+  padding-top: 20px;
+}
+
+ul {
+  text-align: center;
+  margin: 0 45%;
+  padding-top: 5px;
+  padding-left: 3px
+}
+
+
+/* IMAGES */
+img {
+  width:200px;
+}
+
+
+/* CLASS */
+
 .black-font{
   color: black;
 }
@@ -40,35 +82,9 @@ p, h3, h4, ul, ol {
   font-size: 10px;
 }
 
-header, Section, Footer {
-  text-align: center;
-}
-
-ol {
-  text-align: left;
-  margin: 0 30%;
-  padding-top: 20px;
-}
-
 .text-left{
   text-align: left;
   margin: 0 30%;
-}
-
-a {
-  font-family: Arial, sans-serif;
-  font-size: 15px;
-}
-
-/* design features */
-img {
-  width:200px;
-}
-body{
-  background-color:black; 
-}
-header{
-  background-color: #fff;
 }
 
 .short-hr{
@@ -77,8 +93,10 @@ header{
   border: solid #fff 2px;
 }
 
-footer > p {
-margin: 10px;
+/* LINKS */
+a {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
 }
 
 a:link    { color: white;  }
