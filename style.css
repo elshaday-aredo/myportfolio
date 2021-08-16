@@ -31,10 +31,12 @@ header, Section, Footer {
 
 ul {
   text-align: left;
+  margin: center ;
 }
 
 .text-left{
   text-align: left;
+  margin: center ;
 }
 
 a {
